@@ -1,0 +1,15 @@
+#Addition and Substraction of two numbers.
+import java.util.*;
+class J
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        int sub = a - b;
+        System.out.print("Sum of two numbers:" + sum+"\n");
+        System.out.print("Substraction of two numbers:" + sub);
+    }
+}
